@@ -1,0 +1,13 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+:root {
+	--primary-bg: #000;
+	--neutral-bg: #303030;
+	--border-bg: #222;
+	--btn-primary: #e50914;
+	--text-primary: #fff;
+	--text-neutral: #737373;
+}
