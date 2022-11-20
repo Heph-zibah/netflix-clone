@@ -1,0 +1,189 @@
+header {
+	width: 100%;
+	height: 80vh;
+	color: var(--text-primary);
+	position: relative;
+	background-image: url('../../Assets/netflix-bg.jpg');
+	opacity: 0.9;
+	background-repeat: no-repeat;
+	background-size: center;
+	background-position: center;
+	border-bottom: 8px solid #222;
+}
+header::before {
+	content: '';
+	background-color: var(--primary-bg);
+	opacity: 0.75;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+nav {
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1720px;
+	margin: 0 5%;
+}
+.logo {
+	width: 30%;
+	height: 64px;
+}
+.btn {
+	background-color: var(--btn-primary);
+	border: 0;
+	color: var(--text-primary);
+	border-radius: 3px;
+}
+.signin {
+	padding: 0.25rem 0.5rem;
+	font-size: 0.9rem;
+}
+.hero__content {
+	text-align: center;
+	margin: 0 auto;
+	max-width: 640px;
+	width: 100%;
+	padding: 70px 45px;
+	z-index: 100;
+}
+.hero__content h1 {
+	font-size: 1.75rem;
+	padding-top: 75px;
+}
+.hero__content h2 {
+	font-size: 1.13rem;
+	font-weight: 400;
+	margin: 1rem auto;
+}
+.hero__content h3 {
+	font-size: 18px;
+	font-weight: 400;
+	padding-bottom: 20px;
+	max-width: 450px;
+}
+.hero__content form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 950px;
+	margin: 0 auto;
+}
+.hero__content form input {
+	height: 48px;
+	padding: 10px 10px 0;
+	outline: 0;
+	border: 1px solid #8c8c8c;
+	color: var(--primary-bg);
+	max-width: 640px;
+	width: 100%;
+	margin: 0 auto;
+}
+.cta__btn {
+	align-items: center;
+	display: inline-flex;
+	flex-direction: row;
+	line-height: normal;
+	margin: 0.25em auto;
+	padding: 1rem 2em;
+	font-size: 1.2rem;
+	margin-top: 1rem;
+}
+
+@media screen and (min-width: 550px) {
+	header {
+		height: 100vh;
+	}
+	.logo {
+		width: 108px;
+		height: 88px;
+	}
+	.signin {
+		padding: 7px 17px;
+		font-size: 0.9rem;
+	}
+
+	.hero__content {
+		max-width: 640px;
+		padding: 70px 45px;
+	}
+	.hero__content h1 {
+		font-size: 3.125rem;
+	}
+	.hero__content h2 {
+		font-size: 1.625rem;
+	}
+	.hero__content h3 {
+		font-size: 18px;
+		padding: 10px 10%;
+	}
+}
+@media screen and (min-width: 950px) {
+	nav {
+		max-width: 1920px;
+		margin: 0 3.5rem;
+	}
+	.logo {
+		width: 168px;
+		height: 100px;
+		z-index: 2;
+	}
+	.signin {
+		padding: 17px 27px;
+		font-size: 1.2rem;
+	}
+	.hero__content {
+		text-align: center;
+		margin: 0 auto;
+		max-width: 950px;
+		width: 100%;
+		padding: 70px 45px;
+		z-index: 100;
+	}
+	.hero__content h1 {
+		font-size: 3.125rem;
+		max-width: 640px;
+		margin: 0 auto;
+	}
+	.hero__content h2 {
+		font-size: 1.6rem;
+	}
+	.hero__content h3 {
+		font-size: 1.2rem;
+		max-width: none;
+	}
+	.form__div {
+		max-width: 950px;
+		margin: 0 auto;
+	}
+	.hero__content form {
+		flex-direction: row;
+		width: 100%;
+		margin-top: 20px;
+	}
+	.hero__content form input {
+		padding: 1.85rem 10px;
+		width: 60%;
+		margin: 0 10%;
+	}
+	.cta__btn {
+		margin: 0.25em -15%;
+		padding: 1rem 2em;
+		font-size: 1.6rem;
+		margin-top: 0;
+		border-left: 1px solid #000;
+	}
+}
+@media screen and (min-width: 1201px) {
+}
+@media screen and (min-width: 1440x) {
+}
