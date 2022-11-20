@@ -1,7 +1,11 @@
+import Enjoy from './Components/Enjoy/Enjoy';
+import Hero from './Components/Hero/Hero';
+
 function App() {
 	return (
 		<div className='App'>
-			<h1>hello world</h1>
+			<Hero />
+			<Enjoy />
 		</div>
 	);
 }
