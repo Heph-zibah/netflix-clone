@@ -53,12 +53,12 @@ nav {
 	margin: 0 auto;
 	max-width: 640px;
 	width: 100%;
-	padding: 30px 45px;
+	padding: 20px 45px;
 	z-index: 100;
 }
 .hero__content h1 {
 	font-size: 1.75rem;
-	padding-top: 75px;
+	padding-top: 45px;
 }
 .hero__content h2 {
 	font-size: 1.13rem;
