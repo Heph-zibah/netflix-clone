@@ -1,0 +1,157 @@
+.watch__section {
+	background: transparent;
+	border-bottom: 8px solid #222;
+	color: #fff;
+	margin-bottom: 0;
+	padding: 50px 5%;
+	position: relative;
+}
+.watch__container {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0 auto;
+	max-width: 1100px;
+}
+.watch__info {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	z-index: 3;
+}
+.watch__info h1 {
+	font-size: 1.825rem;
+	line-height: 1.1;
+	margin-bottom: 0.5rem;
+}
+.watch__info h2 {
+	font-size: 1.45rem;
+	font-weight: 400;
+	margin: 0.75em 0 0.25em;
+}
+.watch__img {
+	margin-top: 1em;
+	max-width: 600px;
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	flex: 0 1 auto;
+	height: 100%;
+}
+.watch__img--container {
+	margin: -8% 0 0;
+	min-height: 100px;
+	width: 100%;
+}
+.watch__img--container img {
+	border: 0;
+	height: auto;
+	max-width: 100%;
+}
+.watch__animation {
+	align-items: center;
+	background: #000;
+	border: 2px solid hsla(0, 0%, 100%, 0.25);
+	border-radius: 0.75em;
+	bottom: 14%;
+	box-shadow: 0 0 2em 0 #000;
+	display: flex;
+	left: 50%;
+	margin: 0 auto;
+	min-width: 15em;
+	padding: 0.25em 0.65em;
+	position: absolute;
+	transform: translateX(-50%);
+	width: 60%;
+}
+.watch__animation--img {
+	flex-grow: 0;
+	flex-shrink: 0;
+	margin: 0 1em 0 0;
+}
+.watch__animation--img img {
+	border: 0;
+	height: auto;
+	max-width: 100%;
+	width: 50px;
+}
+.watch__animation--text {
+	flex-grow: 1;
+	flex-shrink: 1;
+	margin: 0.3em 0;
+}
+.watch__animation--text h3 {
+	color: #fff;
+	font-size: 0.9em;
+	font-weight: 500;
+}
+.watch__animation--text p {
+	color: #0071eb;
+	font-size: 0.75em;
+	font-weight: 400;
+}
+.watch__animation--download {
+	background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif)
+		50% no-repeat;
+	background-size: 100%;
+	content: '';
+	display: block;
+	flex-grow: 0;
+	flex-shrink: 0;
+	height: 3em;
+	outline: 2px solid #000;
+	outline-offset: -2px;
+	width: 3em;
+}
+@media screen and (min-width: 550px) {
+	.watch__section {
+		padding: 70px 45px;
+	}
+	.watch__info h1 {
+		font-size: 2.9rem;
+	}
+	.watch__info h2 {
+		font-size: 1.7rem;
+	}
+	.watch__animation--text h3 {
+		font-size: 1em;
+	}
+	.watch__animation--text p {
+		font-size: 0.9em;
+	}
+	.watch__animation--download {
+		height: 3.75em;
+	}
+}
+@media screen and (min-width: 950px) {
+	.watch__container {
+		flex-direction: row-reverse;
+	}
+	.watch__info {
+		text-align: start;
+		width: 52%;
+		height: 100%;
+		padding: 0;
+	}
+	.watch__info h1 {
+		font-size: 1.925rem;
+	}
+	.watch__info h2 {
+		font-size: 1.45rem;
+	}
+	.watch__img--container {
+		margin: -8% 0 -4% -15%;
+	}
+	.watch__animation {
+		padding: 0.5em 0.75em;
+		width: 40%;
+		left: 25%;
+		bottom: 16%;
+	}
+	.watch__animation--img img {
+		height: 5.75em;
+		width: 70px;
+	}
+}
