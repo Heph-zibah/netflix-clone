@@ -13,3 +13,6 @@
 	--text-primary: #fff;
 	--text-neutral: #737373;
 }
+body {
+	background-color: var(--primary-bg);
+}
